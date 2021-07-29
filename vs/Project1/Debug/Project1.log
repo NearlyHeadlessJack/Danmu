@@ -1,0 +1,18 @@
+﻿  main.cpp
+C:\Users\Ron\Documents\GitHub\Danmu\read.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\Ron\Documents\GitHub\Danmu\read.h(11,20): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Ron\Documents\GitHub\Danmu\read.h(38,13): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Ron\Documents\GitHub\Danmu\read.h(44,13): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Ron\Documents\GitHub\Danmu\read.h(57,15): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Ron\Documents\GitHub\Danmu\read.h(66,13): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Ron\Documents\GitHub\Danmu\read.h(76,15): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Ron\Documents\GitHub\Danmu\display.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\Ron\Documents\GitHub\Danmu\display.h(78,11): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Ron\Documents\GitHub\Danmu\display.h(80,10): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“_Ty”
+          with
+          [
+              _Ty=std::string
+          ]
+C:\Users\Ron\Documents\GitHub\Danmu\display.h(80,83): warning C4474: printf: 格式字符串中传递的参数太多
+C:\Users\Ron\Documents\GitHub\Danmu\display.h(80,83): message : 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+  Project1.vcxproj -> C:\Users\Ron\Documents\GitHub\Danmu\vs\Project1\Debug\Project1.exe
