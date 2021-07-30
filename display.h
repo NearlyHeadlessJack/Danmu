@@ -74,13 +74,12 @@ void display()
 			printf("\n");
 		}
 	}
+	
 
 	for(i=0;i<names.size();i++)
 	{
 		printf("欢迎乘客%s登机，座位号：%s\n",names[i],_seat[i]);
 	}
-
-
 
 
 }
