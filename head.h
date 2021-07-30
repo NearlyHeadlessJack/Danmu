@@ -10,3 +10,4 @@ using namespace std;
 
  vector <string> names;
  vector <string> _seat;
+
