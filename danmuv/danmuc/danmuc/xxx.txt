@@ -1,0 +1,8 @@
+{"TimeStamp":"11:11:16.913", "Uname":"AAAACDFFFVDRGDR", "Comment":"#1J#", "Type":"弹幕", "SCTime":0}
+{"TimeStamp":"11:11:20.216", "Uname":"AAAACDFFFVDRGDR", "Comment":"#16A#", "Type":"弹幕", "SCTime":0}
+{"TimeStamp":"11:11:20.216", "Uname":"AAARGDR", "Comment":"#12A#", "Type":"弹幕", "SCTime":0}
+{"TimeStamp":"11:11:20.216", "Uname":"ADR", "Comment":"#13A#", "Type":"弹幕", "SCTime":0}
+{"TimeStamp":"11:11:20.216", "Uname":"ADDWWR", "Comment":"#16A#", "Type":"弹幕", "SCTime":0}
+{"TimeStamp":"11:11:20.216", "Uname":"ADWR", "Comment":"#1A#", "Type":"弹幕", "SCTime":0}
+{"TimeStamp":"11:11:20.216", "Uname":"AD嗯嗯WR", "Comment":"#2A#", "Type":"弹幕", "SCTime":0}
+{"TimeStamp":"11:11:20.216", "Uname":"ADWR", "Comment":"#3A#", "Type":"弹幕", "SCTime":0}

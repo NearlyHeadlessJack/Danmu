@@ -1,16 +1,28 @@
 #include "database.h"
 #include "read.h"
 #include "display.h"
+#include<time.h>
 
 
 int main()
 {
-	//while(1)
-	//{
-		flash();
+	clock_t t1 = clock();
+	
+	while(1)
+	{
+		clock_t t2 = clock();
+		if (t2 - t1 > 0.5)
+		{
+			Flash ne;
+			t1 = clock();
+		}
+
+		else
+			continue;
+
 		
 	//	system("pause");
-	//}
+	}
 		
 	return 0;
 }

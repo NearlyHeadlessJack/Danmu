@@ -1,8 +1,9 @@
 #pragma once
 #include "head.h"
-void display(void);
+void display();
 void display()
 {
+	system("cls");
 	int i=0;
 	int j=0;
 	printf("     \t|A|B|\t|H|K|\n");
@@ -76,10 +77,12 @@ void display()
 	}
 	
 
-	for(i=0;i<names.size();i++)
+	
+	for (i = 0; i < names.size(); i++)
 	{
-		printf("欢迎乘客%s登机，座位号：%s\n",names[i],_seat[i]);
+		printf("%s   %s  size:%d,i:%d\n", names[i], _seat[i], names.size(),i);
 	}
+	
 
 
 }

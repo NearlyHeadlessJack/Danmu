@@ -7,7 +7,7 @@
 #include<stack>
 using namespace std;
  int seat[26][8] = { 0 };//用于储存座位信息
-
+ 
  vector <string> names;
  vector <string> _seat;
 
