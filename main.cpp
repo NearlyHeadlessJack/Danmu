@@ -8,7 +8,7 @@ int main()
 	//while(1)
 	//{
 		flash();
-		//display();
+		
 	//	system("pause");
 	//}
 		
