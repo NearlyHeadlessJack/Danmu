@@ -6,8 +6,8 @@ class Flash
 public:
    
     Flash();
-    const char* filename = "xxx.txt";
-    FILE* fp = fopen(filename, "r");
+    const char* filename = "Data-10313214-20210801.txt";
+    FILE* fp = fopen(filename, "r+");
     ~Flash()
     {
         fclose(fp);
@@ -18,26 +18,39 @@ public:
  	Flash:: Flash(void)
  	{
         
-        char s[200],ch;
+        char s[100],ch;
         
         
         fseek(this->fp,0L,SEEK_END);
-
-        while(fgetc(this->fp)!='\n')
-            fseek(this->fp,-2L,SEEK_CUR);
-        int i=0;
+        fprintf(this->fp, "1111");
+        
+       
+        
+        while (fgetc(this->fp) != '\n')
+        {
+            
+            fseek(this->fp, -2L, SEEK_CUR); 
+            
+        }
+        
+        fprintf(this->fp, "1111");        system("pause");
+        int i=0; //printf("1111");
         while (EOF != (s[i] = fgetc(fp)))//将文件读入source_code储存
         {
-
+            printf("%c", s[i]);
+            
         i++;
 
         }
         s[i] = '\0';
-
-        
-        char name_[30];
+       //printf("%s", s);
+        //printf("1111");
+        char name_[20];
         int index=38;
+       
          i=0;
+         //printf("%s", s);
+        
         while(s[index]!='"')
         {
             
@@ -45,7 +58,7 @@ public:
             i++;
             index++;
         }
-        //name_[i+1] = '\0';
+        name_[i] = '\0';
         index+=14;
         char num[4];
         i=0;
@@ -108,11 +121,26 @@ public:
                 else
                 {
                     seat[row][col]=1;
-                    string str = name_;
-                    names.push_back(str);
-                   // num[2] = '\0';
-                    str = num;
-                    _seat.push_back(str);
+                    int i = 0;
+                    while (name_[i] != '\0')
+                    {
+                        names[index_][i] = name_[i];
+                        i++;
+                    }
+                    names[index_][i] = '0';
+                    
+                   // names.push_back(str);
+                    num[2] = '\0';
+                    i = 0;
+                    while (num[i] != '\0')
+                    {
+                        _seat[index_][i] = num[i];
+                        i++;
+                    }
+                    _seat[index_][i] = '\0';
+                   
+                    //_seat.push_back(str);
+                    index_++;
                     display();
                 }
                
@@ -172,11 +200,26 @@ public:
                 else
                 {
                     seat[row][col] = 1;
-                    string str = name_;
-                    names.push_back(str);
-                   // num[3] = '\0';
-                    str = num;
-                    _seat.push_back(str);
+                    int i = 0;
+                    while (name_[i] != '\0')
+                    {
+                        names[index_][i] = name_[i];
+                        i++;
+                    }
+                    names[index_][i] = '0';
+
+                    // names.push_back(str);
+                    num[3] = '\0';
+                    i = 0;
+                    while (num[i] != '\0')
+                    {
+                        _seat[index_][i] = num[i];
+                        i++;
+                    }
+                    _seat[index_][i] = '\0';
+
+                    //_seat.push_back(str);
+                    index_++;
                     display();
                 }
             }

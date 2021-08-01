@@ -78,9 +78,9 @@ void display()
 	
 
 	
-	for (i = 0; i < names.size(); i++)
+	for (i = 0; i < index_; i++)
 	{
-		printf("%s   %s  size:%d,i:%d\n", names[i], _seat[i], names.size(),i);
+		printf("%s   seat: %s  size:%d,i:%d\n", names[i], _seat[i], index_,i);
 	}
 	
 

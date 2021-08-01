@@ -8,6 +8,10 @@
 using namespace std;
  int seat[26][8] = { 0 };//用于储存座位信息
  
- vector <string> names;
- vector <string> _seat;
+ char names[100][50];
+ char _seat[100][4];
+ int index_ = 0;
+
+
+
 
