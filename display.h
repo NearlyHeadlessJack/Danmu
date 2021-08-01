@@ -6,16 +6,19 @@ void display()
 	system("cls");
 	int i=0;
 	int j=0;
-	printf("     \t|A|B|\t|H|K|\n");
+	printf("     \t|A|B|C|\t|H|J|K|\n");
+	seat[1][3] = 1;
+	seat[1][5] = 1;
+	seat[2][3] = 1;
+	seat[2][5] = 1;
 	for(i=1;i<=25;i++)
 	{
 		printf(" %d \t|",i);
 		if(i<=2)//头等舱
 		{
-			for(j=1;j<=2;j++)
+			for (j = 1; j <= 3; j++)
 			{
-
-				if(seat[i][j]==1)
+				if (seat[i][j] == 1)
 				{
 					printf("*|");
 				}
@@ -23,12 +26,11 @@ void display()
 				{
 					printf(" |");
 				}
-
 			}
 			printf("\t|");
-			for(j=4;j<=6;j+=2)
+			for (j = 4; j <= 6; j++)
 			{
-				if(seat[i][j]==1)
+				if (seat[i][j] == 1)
 				{
 					printf("*|");
 				}
@@ -38,16 +40,11 @@ void display()
 				}
 
 			}
-
 			printf("\n");
 		}
 		else
 		{
-			if(i==3)
-			{
-				printf("\n");
-				printf("     \t|A|B|C|\t|H|J|K|\n");
-			}
+			
 			for(j=1;j<=3;j++)
 			{
 				if(seat[i][j]==1)
@@ -59,7 +56,7 @@ void display()
 					printf(" |");
 				}
 			}
-			printf("\t");
+			printf("\t|");
 			for(j=4;j<=6;j++)
 			{
 				if(seat[i][j]==1)
@@ -78,10 +75,10 @@ void display()
 	
 
 	
-	for (i = 0; i < index_; i++)
-	{
-		printf("%s   seat: %s  size:%d,i:%d\n", names[i], _seat[i], index_,i);
-	}
+	//for (i = 0; i < index_; i++)
+	//{
+	//	printf("\n", names[i], _seat[i], index_,i);
+	//}
 	
 
 

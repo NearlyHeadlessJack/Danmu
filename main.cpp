@@ -11,7 +11,7 @@ int main()
 	while(1)
 	{
 		clock_t t2 = clock();
-		if (t2 - t1 > 0.5)
+		if (t2 - t1 > 1.5)
 		{
 			Flash ne;
 			t1 = clock();
