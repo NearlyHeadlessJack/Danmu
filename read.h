@@ -6,7 +6,7 @@ class Flash
 public:
 
     Flash();
-    const char* filename = "Data-10313214-20210801.txt";
+    const char* filename = "Data-10313214-20210821.txt";
     FILE* fp = fopen(filename, "r");
 
     ~Flash()
@@ -168,6 +168,7 @@ Flash:: Flash(void)
 
                 //_seat.push_back(str);
                 index_++;
+                total++;
                 display();
             }
 
@@ -248,6 +249,7 @@ Flash:: Flash(void)
 
                 //_seat.push_back(str);
                 index_++;
+                total++;
                 display();
             }
         }

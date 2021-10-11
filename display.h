@@ -73,7 +73,7 @@ void display()
 		}
 	}
 	
-
+	printf("Total: %d\n", total+4);
 	
 	//for (i = 0; i < index_; i++)
 	//{

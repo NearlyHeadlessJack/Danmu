@@ -12,6 +12,6 @@ using namespace std;
  char _seat[100][4];
  int index_ = 0;
 
-
+ int total = 0;
 
 
